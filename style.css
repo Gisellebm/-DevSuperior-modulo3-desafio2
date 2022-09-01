@@ -56,3 +56,37 @@ header {
   align-items: center;
   gap: 10px;
 }
+
+
+.space {
+  background-color: var(--bg-blue);
+  height: 418px;
+}
+
+.space h2 {
+  color: var(--color-white);
+  font-size: 32px;
+  line-height: 44px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.card-space {
+  height: 127px;
+  background-color: var(--bg-grey);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-space h3 {
+  font-size: 20px;
+  line-height: 27px;
+  padding-bottom: 20px;
+}
+
+.card-space p {
+  font-size: 14px;
+  line-height: 19px;
+  text-align: justify;
+}
