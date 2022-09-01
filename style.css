@@ -124,3 +124,28 @@ header {
   font-size: 14px;
   line-height: 19px;
 }
+
+
+footer {
+  background-color: var(--color-black);
+  height: 262px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p,
+address {
+  color: var(--color-white);
+  font-size: 14px;
+  line-height: 19px;
+}
+
+
+.cards-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
