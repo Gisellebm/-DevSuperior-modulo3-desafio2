@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --bg-red: #f03c42;
+  --bg-blue: #222374;
+  --bg-grey: #cccccc;
+  --color-white: #fff;
+  --color-black: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: 14px;
+  line-height: 19px;
+}
+
+
+header {
+  background-color: var(--bg-red);
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.card-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-nav h1 {
+  color: var(--color-white);
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.card-instagram,
+.card-twitter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
