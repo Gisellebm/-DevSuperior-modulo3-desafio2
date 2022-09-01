@@ -90,3 +90,37 @@ header {
   line-height: 19px;
   text-align: justify;
 }
+
+
+.modality {
+  height: 880px;
+  padding: 20px 0;
+}
+
+.modality h2 {
+  color: var(--bg-red);
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 40px;
+}
+
+.card-sport {
+  height: 106px;
+  background: #222374;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-sport h3 {
+  color: var(--color-white);
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.card-sport p {
+  color: var(--bg-grey);
+  font-size: 14px;
+  line-height: 19px;
+}
